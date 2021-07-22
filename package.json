@@ -39,6 +39,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "build-iis":"next build && next export",
     "start": "next start",
     "now-build": "next build"
   }

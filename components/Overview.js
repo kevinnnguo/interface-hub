@@ -152,8 +152,8 @@ const Overview = () => {
         <Col xs={24} sm={12} md={6}>
           <StatCard
             type="fill"
-            title="Campaigns"
-            value={103}
+            title="Orders"
+            value={5}
             icon={<BookOutlined style={{ fontSize: '20px'}} />}
             color={theme.primaryColor}
             clickHandler={() => Message.info('Campaign stat button clicked')}
@@ -163,7 +163,7 @@ const Overview = () => {
           <StatCard
             type="fill"
             title="Customers"
-            value={230}
+            value={3}
             icon={<PhoneOutlined style={{ fontSize: '20px'}}  />}
             color={theme.darkColor}
             clickHandler={() => Message.info('Customers stat button clicked')}
@@ -172,8 +172,8 @@ const Overview = () => {
         <Col xs={24} sm={12} md={6}>
           <StatCard
             type="fill"
-            title="Queries"
-            value={323}
+            title="Integrations"
+            value={2}
             icon={<BellOutlined style={{ fontSize: '20px'}} />}
             color={theme.warningColor}
             clickHandler={() => Message.info('Queries stat button clicked')}
@@ -182,8 +182,8 @@ const Overview = () => {
         <Col xs={24} sm={12} md={6}>
           <StatCard
             type="fill"
-            title="Opens"
-            value={870}
+            title="Errors"
+            value={5}
             icon={<MessageOutlined style={{ fontSize: '20px'}} />}
             color={theme.errorColor}
             clickHandler={() => Message.info('Opens stat button clicked')}
@@ -192,7 +192,7 @@ const Overview = () => {
       </Row>
 
       <Card
-        title="Sales analytics"
+        title="Integration analytics"
         extra={
           <Dropdown overlay={menu}>
             <EllipsisOutlined style={{ fontSize: '20px' }} />
